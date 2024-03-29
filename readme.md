@@ -19,10 +19,10 @@ HostingHelper is a convenient tool that simplifies the installation process for 
 1. **Clone the Repository:**
 
    ```bash
-   git clone [https://github.com/your-username/HostingHelper.git](https://github.com/your-username/HostingHelper.git)
+   git clone https://github.com/legendryPro/HostingHelper.git
 
 2. **Install Panel**
-   ```bash
+   
    bash pterodactyl (to install pterodactyl only supported os)
    bash pufferpanel (2 files pufferDocker to install Pufferpanel in docker PufferPanel to install normal ubuntu and supported os)
  
