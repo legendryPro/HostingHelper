@@ -1,0 +1,45 @@
+# CREATED BY LEGENDARYNODES
+echo "Created by LegendaryNodes"
+
+# Update packages
+
+echo "Updating Packages"
+
+apt update 
+
+# Installing Commands
+
+echo "Installing Commands"
+
+apt install git
+apt install sudo
+apt install nano
+apt install curl
+
+# Installing panel
+
+echo "Installing panel"
+
+curl -s https://packagecloud.io/install/repositories/pufferpanel/pufferpanel/script.deb.sh | sudo bash
+
+sudo apt-get install pufferpanel
+
+# Adding user
+
+echo "Adding user"
+
+sudo pufferpanel user add
+
+# Starting Panel
+
+echo "Starting Panel"
+
+sudo systemctl enable --now pufferpanel
+
+# PufferPanel is installed
+
+echo "Pufferpanel is Installed and started"
+echo "Visit yout panel at (your vps ip):8080"
+echo "To change ports of panel do"
+echo "nano /etc/pufferpanel/config.json"
+echo "Enjoy And Thanks for using script"
